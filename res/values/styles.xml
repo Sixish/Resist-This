@@ -1,0 +1,55 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="android:listViewStyle">@style/AppTheme.ListViewStyle</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        
+    </style>
+    <style name="AppTheme.Accessibility.Normal" parent="AppTheme">
+        <item name="bodyBackground">#ffffff</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
+    <style name="AppTheme.Accessibility.Protanopia" parent="AppTheme">
+        <item name="bodyBackground">#ffff00</item>
+        <item name="android:textColor">#0000db</item>
+        <item name="android:textColorPrimary">#0000db</item>
+    </style>
+    <style name="AppTheme.Accessibility.Deuteranopia" parent="AppTheme">
+        <item name="bodyBackground">#ffdb1c</item>
+        <item name="android:textColor">#0065b1</item>
+        <item name="android:textColorPrimary">#0065b1</item>
+    </style>
+    <style name="AppTheme.Accessibility.Tritanopia" parent="AppTheme">
+        <item name="bodyBackground">#f74862</item>
+        <item name="android:textColor">#007385</item>
+        <item name="android:textColorPrimary">#007385</item>
+    </style>
+    <style name="AppTheme.Accessibility.HighContrast" parent="AppTheme">
+        <item name="bodyBackground">#000000</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+    </style>
+    
+    <style name="AppTheme.MenuText">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:actionMenuTextColor">#ffffff</item>
+    </style>
+    <style name="AppTheme.BodyBackground">
+        <item name="android:background">?bodyBackground</item>
+    </style>
+    
+</resources>

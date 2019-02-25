@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ResistMeBaby</string>
+    <string name="action_preferences">Preferences</string>
+    <string name="action_cosinewave">Cosine Wave</string>
+    <string name="cosine_wave_activity_name">Cosine Wave</string>
+    <string name="sample_value">0.0&#x2126; &#xB1; 20.0%</string>
+    
+    <string name="header_band_one">Band One</string>
+    <string name="header_band_two">Band Two</string>
+    <string name="header_band_three">Band Three</string>
+    <string name="header_band_four">Band Four</string>
+    
+    <string name="header_sine_amplitude">Amplitude</string>
+    <string name="header_sine_angular_velocity">Angular Velocity</string>
+    <string name="header_sine_phase_angle">Phase Shift</string>
+    <string name="header_sine_angle_shift">Vertical Shift</string>
+</resources>

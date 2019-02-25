@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Resistor image height and width -->
+    <dimen name="resistor_image_height">200dp</dimen>
+    <dimen name="resistor_image_width">300dp</dimen>
+    
+    <dimen name="picker_label_fontsize">18sp</dimen>
+    <dimen name="width_sine_headers">120dp</dimen>
+</resources>

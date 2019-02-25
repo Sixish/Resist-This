@@ -1,0 +1,43 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/AppTheme.BodyBackground"
+    tools:context="com.rac.fourbandresistor" >
+
+
+    <TextView
+        android:id="@+id/resistorvalue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:text="@string/sample_value" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        >
+        <fragment
+            android:id="@+id/fragment_resistor"
+            android:name="com.rac.fourbandresistor.ResistorFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.35"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            tools:layout="@layout/fragment_resistor" />
+        <fragment
+            android:id="@+id/fragment_pickers"
+            android:name="com.rac.fourbandresistor.PickerFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.65"
+            tools:layout="@layout/fragment_pickers"
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>
